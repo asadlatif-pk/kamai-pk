@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="ur" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urdu Blog Kaise Shuru Karein — AdSense Approval Tak Ka Safar | KamaiPK</title>
+  <meta name="description" content="Pakistan mein Urdu Blog shuru karein 2026 mein. Google AdSense se passive income kamayein. Free step-by-step Urdu guide — beginner se expert tak." />
+  <meta name="keywords" content="urdu blogging Pakistan, blog kaise banayein, Google AdSense Pakistan, blogging se paise, ghar baithe earning 2026" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Urdu Blog Kaise Shuru Karein — AdSense Approval Tak Ka Safar | KamaiPK" />
+  <meta property="og:description" content="Pakistan mein Urdu Blogging shuru karein aur Google AdSense se passive income kamayein. Free Urdu Guide 2026." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://asadlatif-pk.github.io/kamai-pk/blogging-guide.html" />
+  <link rel="canonical" href="https://asadlatif-pk.github.io/kamai-pk/blogging-guide.html" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --accent: #f59e0b;
+      --green: #16a34a;
+      --red: #dc2626;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* NAV */
+    nav {
+      background: #1e293b;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-logo { color: #fff; font-size: 1.3rem; font-weight: 800; }
+    .nav-logo span { color: var(--accent); }
+    .nav-back {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .nav-back:hover { color: #fff; text-decoration: none; }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      background: #fff;
+      padding: 10px 20px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .breadcrumb a { color: var(--primary); }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg, #1e293b 0%, #1e3a5f 100%);
+      color: #fff;
+      padding: 50px 20px 40px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #1e293b;
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      font-size: clamp(1.5rem, 5vw, 2.4rem);
+      font-weight: 800;
+      line-height: 1.3;
+      margin-bottom: 14px;
+    }
+    .hero h1 em { color: var(--accent); font-style: normal; }
+    .hero-sub {
+      font-size: 1rem;
+      color: #94a3b8;
+      max-width: 600px;
+      margin: 0 auto 24px;
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+    .hero-meta span { display: flex; align-items: center; gap: 5px; }
+
+    /* STATS */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+    .stat-box {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 12px;
+      padding: 14px 20px;
+      text-align: center;
+      min-width: 90px;
+    }
+    .stat-box .val {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--accent);
+    }
+    .stat-box .lbl {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+
+    /* CONTAINER */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 16px 60px;
+    }
+
+    /* TOC */
+    .toc {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-left: 4px solid var(--primary);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 36px;
+    }
+    .toc h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--primary-dark);
+    }
+    .toc ol {
+      padding-left: 20px;
+    }
+    .toc li {
+      margin: 6px 0;
+      font-size: 0.92rem;
+    }
+    .toc a { color: var(--primary); }
+
+    /* SECTIONS */
+    .section { margin-bottom: 44px; }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      color: #1e293b;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 18px 0 8px;
+      color: #1e293b;
+    }
+
+    p { margin-bottom: 14px; color: #334155; }
+
+    /* INFO BOX */
+    .info-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 4px solid var(--green);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+    .info-box strong { color: var(--green); }
+
+    .warn-box {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0;
+    }
+
+    /* PLATFORM CARDS */
+    .platform-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin: 20px 0;
+    }
+    .platform-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      transition: box-shadow 0.2s;
+    }
+    .platform-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .platform-card .icon { font-size: 1.8rem; margin-bottom: 8px; }
+    .platform-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+    .platform-card .earning {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--green);
+      margin-bottom: 6px;
+    }
+    .platform-card p { font-size: 0.85rem; color: var(--muted); margin: 0; }
+    .badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-top: 8px;
+    }
+    .badge-green { background: #dcfce7; color: var(--green); }
+    .badge-blue { background: #dbeafe; color: var(--primary); }
+    .badge-yellow { background: #fef9c3; color: #92400e; }
+
+    /* STEPS */
+    .steps { margin: 20px 0; }
+    .step {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      align-items: flex-start;
+    }
+    .step-num {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 800;
+      font-size: 1rem;
+      min-width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .step-content h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .step-content p { font-size: 0.9rem; color: var(--muted); margin: 0; }
+
+    /* TABLE */
+    .table-wrap { overflow-x: auto; margin: 20px 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+    th {
+      background: #1e293b;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 700;
+    }
+    td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    tr:nth-child(even) td { background: #f8fafc; }
+
+    /* TIPS */
+    .tips-list { list-style: none; margin: 16px 0; }
+    .tips-list li {
+      padding: 8px 0;
+      padding-left: 28px;
+      position: relative;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tips-list li::before {
+      content: '✅';
+      position: absolute;
+      left: 0;
+    }
+
+    .dont-list { list-style: none; margin: 16px 0; }
+    .dont-list li {
+      padding: 8px 0;
+      padding-left: 28px;
+      position: relative;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+      color: #dc2626;
+    }
+    .dont-list li::before {
+      content: '❌';
+      position: absolute;
+      left: 0;
+    }
+
+    /* FAQ */
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+    .faq-q {
+      padding: 16px 18px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+    .faq-a {
+      padding: 14px 18px;
+      font-size: 0.9rem;
+      color: #475569;
+      border-top: 1px solid var(--border);
+    }
+
+    /* CTA */
+    .cta-box {
+      background: linear-gradient(135deg, #1e293b 0%, #1e3a5f 100%);
+      color: #fff;
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta-box h3 { font-size: 1.3rem; margin-bottom: 8px; }
+    .cta-box p { color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px; }
+    .cta-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #1e293b;
+      font-weight: 800;
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      transition: transform 0.2s;
+    }
+    .cta-btn:hover { transform: translateY(-2px); text-decoration: none; }
+
+    /* MORE GUIDES */
+    .more-guides {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .guide-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      transition: box-shadow 0.2s;
+    }
+    .guide-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-decoration: none; }
+    .guide-card .g-tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .guide-card .g-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #1e293b;
+      line-height: 1.3;
+    }
+    .guide-card .g-sub {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #1e293b;
+      color: #94a3b8;
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.85rem;
+    }
+    footer a { color: #94a3b8; margin: 0 8px; }
+    footer .copy { margin-top: 8px; }
+
+    .back-top {
+      display: inline-block;
+      margin-top: 10px;
+      color: #64748b;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://asadlatif-pk.github.io/kamai-pk/index.html" class="nav-logo">💸 Kamai<span>PK</span></a>
+  <a href="https://asadlatif-pk.github.io/kamai-pk/index.html" class="nav-back">← Home</a>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="https://asadlatif-pk.github.io/kamai-pk/index.html">Home</a> › Blogging Guide
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">✍️ Urdu Blogging</div>
+  <h1>Urdu Blog Kaise Shuru Karein<br><em>AdSense Approval Tak Ka Safar</em></h1>
+  <p class="hero-sub">
+    Aردو mein blog likho — Google AdSense se passive income kamao.<br>
+    <strong>Rs.10,000 se Rs.1,50,000+</strong> ماہانہ — bilkul Free shuru karo
+  </p>
+
+  <div class="stats">
+    <div class="stat-box"><div class="val">Rs.1.5L+</div><div class="lbl">Max Monthly</div></div>
+    <div class="stat-box"><div class="val">Rs.0</div><div class="lbl">Investment</div></div>
+    <div class="stat-box"><div class="val">3-6</div><div class="lbl">Mahine</div></div>
+    <div class="stat-box"><div class="val">😴</div><div class="lbl">Passive Income</div></div>
+  </div>
+
+  <div class="hero-meta" style="margin-top: 20px;">
+    <span>📅 May 2026</span>
+    <span>✍️ KamaiPK Team</span>
+    <span>⏱️ 10 min read</span>
+    <span>🇵🇰 اردو Guide</span>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="container">
+
+  <!-- TOC -->
+  <div class="toc">
+    <h3>📋 Is Article Mein Kya Hai</h3>
+    <ol>
+      <li><a href="#kya-hai">Blogging Kya Hai?</a></li>
+      <li><a href="#kyun">Urdu Blogging Kyun Karein?</a></li>
+      <li><a href="#platform">Best Platform Konsa?</a></li>
+      <li><a href="#shuru">Blog Shuru Kaise Karein — Step by Step</a></li>
+      <li><a href="#topic">Kis Topic Pe Likho?</a></li>
+      <li><a href="#adsense">Google AdSense Approval Kaise Milta Hai?</a></li>
+      <li><a href="#earnings">Kitna Kamaya Ja Sakta Hai?</a></li>
+      <li><a href="#tips">Kaamyaabi Ke Tips</a></li>
+      <li><a href="#faq">Aksar Puchhe Jaane Wale Sawal</a></li>
+    </ol>
+  </div>
+
+  <!-- 1 -->
+  <div class="section" id="kya-hai">
+    <h2>💡 Blogging Kya Hai?</h2>
+    <p>
+      <strong>Blog</strong> ek online diary ya website hoti hai jisme tum apne topic ke baare mein articles likhte ho. Jab Google pe log kuch search karte hain — tumhara article unhe nazar aata hai, woh aate hain, Ads dekhtay hain — aur <strong>tumhe paise milte hain!</strong>
+    </p>
+    <p>
+      Sochо — ek baar acha article likha, aur woh <strong>saalon tak</strong> Google pe traffic laata rahe aur paise deta rahe. Yahi hai Blogging ka jadoo — <strong>ek baar kaam, baar baar income!</strong>
+    </p>
+
+    <div class="info-box">
+      <strong>🇵🇰 Urdu Blogging Ka Fayda:</strong><br>
+      Urdu internet users ka number Pakistan mein tezi se barh raha hai — lekin Urdu content bahut kam hai. Iska matlab hai ke <strong>competition bohot low</strong> hai aur Google pe rank karna easy hai!
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="section" id="kyun">
+    <h2>🌟 Urdu Blogging Kyun Karein?</h2>
+
+    <div class="platform-grid">
+      <div class="platform-card">
+        <div class="icon">📉</div>
+        <h4>Kam Competition</h4>
+        <p>English mein crores articles hain. Urdu mein hazaron — rank karna bahut aasan hai.</p>
+        <span class="badge badge-green">✅ Big Advantage</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">📈</div>
+        <h4>Growing Audience</h4>
+        <p>Pakistan mein internet users har saal 15% barh rahe hain — audience barhti ja rahi hai.</p>
+        <span class="badge badge-blue">📊 Trending</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">🗣️</div>
+        <h4>Apni Zaban Mein Likho</h4>
+        <p>Urdu ya Roman Urdu mein likhо — English ki zaroorat bilkul nahi hai.</p>
+        <span class="badge badge-green">✅ Easy</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">😴</div>
+        <h4>Passive Income</h4>
+        <p>Sote waqt bhi paise aate hain. Google Ads 24/7 kaam karta hai.</p>
+        <span class="badge badge-yellow">💰 Best Benefit</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="section" id="platform">
+    <h2>🌐 Best Platform Konsa Hai?</h2>
+    <p>Blog shuru karne ke liye do main options hain:</p>
+
+    <div class="platform-grid">
+      <div class="platform-card">
+        <div class="icon">🟠</div>
+        <h4>Blogger (Blogspot)</h4>
+        <div class="earning">Rs.0 — Bilkul Free</div>
+        <p>Google ka apna free platform. Koi hosting cost nahi, koi domain cost nahi. Beginners ke liye perfect starting point.</p>
+        <span class="badge badge-green">✅ Beginners Best</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">🔵</div>
+        <h4>WordPress.org</h4>
+        <div class="earning">Rs.3,000 — Rs.8,000/year</div>
+        <p>Professional bloggers ki choice. Hosting + domain kharidna parta hai. Zyada control aur zyada earning potential.</p>
+        <span class="badge badge-blue">⭐ Pro Choice</span>
+      </div>
+    </div>
+
+    <div class="warn-box">
+      💡 <strong>Meri Rai:</strong> Pehle <strong>Blogger pe shuru karo</strong> — bilkul free hai. Jab AdSense se Rs.10,000+ monthly aane lage — tab WordPress pe shift karo.
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="section" id="shuru">
+    <h2>🚀 Blog Shuru Kaise Karein — Step by Step</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h4>Niche (Topic) Choose Karo</h4>
+          <p>Ek specific topic choose karo jisme tumhara interest ho — Health, Technology, Cooking, Online Earning, Islam, Cricket — koi bhi. Focus zaroori hai!</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h4>Blogger.com Pe Account Banao</h4>
+          <p>Gmail se login karo, "New Blog" press karo, apna blog name aur address rakho. 5 minute mein ready ho jaata hai — bilkul free!</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h4>Pehle 10-15 Articles Likho</h4>
+          <p>Har article 800-1200 words ka hona chahiye. Asaan, simple Urdu mein likho. Har article mein ek specific sawal ka jawab do jo log Google pe search karte hain.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h4>Custom Domain Lo (Optional but Recommended)</h4>
+          <p>Namecheap ya GoDaddy se .com domain sirf Rs.1,500-2,000/year mein milta hai. Domain se blog professional lagta hai aur AdSense approval bhi jaldi milti hai.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <h4>Google Search Console Mein Add Karo</h4>
+          <p>search.google.com/search-console pe apna blog add karo taake Google tumhara content index kare aur traffic aana shuru ho.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-content">
+          <h4>Google AdSense Apply Karo</h4>
+          <p>Jab 20-25 articles ho jaayein aur thoda traffic aane lage — AdSense ke liye apply karo. Approval mein 2-4 hafte lagte hain. Phir Ads shuru, income shuru!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="section" id="topic">
+    <h2>✍️ Kis Topic Pe Likho?</h2>
+    <p>Pakistan mein <strong>yeh topics Google pe sabse zyada search</strong> hote hain — in pe blogging karo:</p>
+
+    <div class="platform-grid">
+      <div class="platform-card">
+        <div class="icon">💻</div>
+        <h4>Online Earning / Tech</h4>
+        <p>"Fiverr se paise kaise kamayein", "Mobile se paise kamao" — Pakistan mein huge demand hai.</p>
+        <span class="badge badge-green">🔥 High CPC</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">🏥</div>
+        <h4>Health & Fitness</h4>
+        <p>Weight loss, diabetes, sugar ke tips — yeh topics Urdu mein bahut search hote hain.</p>
+        <span class="badge badge-blue">📈 High Traffic</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">🍲</div>
+        <h4>Recipes / Cooking</h4>
+        <p>Pakistani recipes, Eid special dishes — aunties ka favorite topic aur bahut traffic aata hai.</p>
+        <span class="badge badge-green">✅ Easy to Write</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">☪️</div>
+        <h4>Islamic / Dini</h4>
+        <p>Duas, Ramzan, Islamic stories — Pakistan mein enormous audience hai is niche ki.</p>
+        <span class="badge badge-yellow">💫 Huge Audience</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">📚</div>
+        <h4>Education / Career</h4>
+        <p>CSS prep, scholarships, university admission — students bahut search karte hain.</p>
+        <span class="badge badge-blue">🎓 Great Niche</span>
+      </div>
+      <div class="platform-card">
+        <div class="icon">🏏</div>
+        <h4>Cricket / Sports</h4>
+        <p>PSL, Pakistan matches — breaking news pe jaldi likhne se traffic blast aata hai.</p>
+        <span class="badge badge-green">⚡ Viral Potential</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="section" id="adsense">
+    <h2>💰 Google AdSense Approval Kaise Milta Hai?</h2>
+    <p>Yeh Pakistan mein sabse bada sawaal hai — yeh zaroori cheezein honi chahiye approval ke liye:</p>
+
+    <ul class="tips-list">
+      <li><strong>Kam se kam 20-25 quality articles</strong> — copy paste bilkul nahi</li>
+      <li><strong>About Us, Contact, Privacy Policy pages</strong> — zaroor banao</li>
+      <li><strong>Custom domain</strong> — .blogspot.com pe approval mushkil hai</li>
+      <li>Blog ki <strong>age kam se kam 3-6 mahine</strong> honi chahiye</li>
+      <li>Koi <strong>copyright content ya images</strong> nahi hone chahiye</li>
+      <li>Blog ka <strong>design clean aur fast</strong> hona chahiye</li>
+      <li>Har article <strong>original aur useful</strong> hona chahiye</li>
+    </ul>
+
+    <div class="info-box">
+      <strong>💡 Pro Tip:</strong> Privacy Policy page banane ke liye <strong>privacypolicygenerator.info</strong> use karo — free mein generate ho jaata hai. Yeh AdSense approval ke liye must hai!
+    </div>
+
+    <div class="warn-box">
+      ⚠️ <strong>Reject Ho Gayi?</strong> Ghabrao mat — wajah fix karo aur 2-4 hafte baad dobara apply karo. Zyada tar log 2nd ya 3rd try mein approval lete hain.
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="section" id="earnings">
+    <h2>📊 Kitna Kamaya Ja Sakta Hai?</h2>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Monthly Traffic</th>
+            <th>Avg. CPC</th>
+            <th>Estimated Earning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1,000 visitors</td><td>Rs.5-10/click</td><td>Rs.5,000 – Rs.10,000</td></tr>
+          <tr><td>5,000 visitors</td><td>Rs.5-10/click</td><td>Rs.25,000 – Rs.50,000</td></tr>
+          <tr><td>20,000 visitors</td><td>Rs.8-15/click</td><td>Rs.80,000 – Rs.1,50,000</td></tr>
+          <tr><td>50,000+ visitors</td><td>Rs.10-20/click</td><td>Rs.2,00,000+</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size: 0.85rem; color: var(--muted);">* Earning niche aur traffic source pe depend karti hai. Tech/Finance niche mein CPC zyada hota hai.</p>
+
+    <div class="info-box">
+      <strong>🌟 Extra Earning:</strong> AdSense ke ilawa Affiliate Marketing links bhi apne blog mein daal sakte ho — isse double income ho sakti hai same traffic se!
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="section" id="tips">
+    <h2>⚡ Kaamyaabi Ke Zaroori Tips</h2>
+
+    <ul class="tips-list">
+      <li><strong>Ek niche pe focus karo</strong> — sab kuch likhne wala blog Google mein rank nahi karta</li>
+      <li><strong>Regularity zaroori hai</strong> — hafte mein kam se kam 2-3 articles zaroor likho</li>
+      <li><strong>Long articles likho</strong> — 1000+ words ke articles Google mein zyada rank karte hain</li>
+      <li><strong>Title mein keyword daalo</strong> — jo log search karte hain, wahi likho</li>
+      <li><strong>Image add karo</strong> — Free images Pixabay ya Pexels se lo</li>
+      <li><strong>Article share karo</strong> — Facebook Groups, WhatsApp mein share karo traffic ke liye</li>
+      <li><strong>ChatGPT se help lo</strong> — ideas aur outline ke liye, lekin apni zaban mein likho</li>
+    </ul>
+
+    <h3>🚫 Yeh Galtiyan Mat Karo</h3>
+    <ul class="dont-list">
+      <li>Doosre blogs se copy paste karna — Google penalty deta hai</li>
+      <li>Sirf 3-5 articles likh ke AdSense apply karna — reject hogi</li>
+      <li>Ek mahine mein result expect karna — blogging mein 3-6 mahine lagte hain</li>
+      <li>Bahut zyada topics pe likhna — niche specific raho</li>
+      <li>Copyright images use karna — legal masla bhi ho sakta hai</li>
+    </ul>
+  </div>
+
+  <!-- FAQ -->
+  <div class="section" id="faq">
+    <h2>❓ Aksar Puchhe Jaane Wale Sawal</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">Kya Urdu mein blog likhna mushkil hai?</div>
+      <div class="faq-a">Bilkul nahi! Roman Urdu (English haroof mein Urdu) mein bhi likh sakte ho — bahut log yahi karte hain. Blogger mein Urdu font ka bhi support hai. Jo comfortable lage, wahi use karo.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Kya Blogger se AdSense milta hai?</div>
+      <div class="faq-a">Haan milta hai! Lekin custom domain (.com ya .pk) lena zaroori hai. Free blogspot.com address se AdSense approval mushkil hoti hai. Domain sirf Rs.1,500-2,000/year mein milta hai — investment worth it hai.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Kitne articles likhne ke baad AdSense apply karein?</div>
+      <div class="faq-a">Kam se kam 20-25 original articles hone chahiye apply karne se pehle. Quality zyada important hai quantity se. Har article 800+ words ka hona chahiye aur useful information honi chahiye.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Blogging se pehla paisa kab milega?</div>
+      <div class="faq-a">Average 3-6 mahine lagte hain pehle paise tak. AdSense payment tab milti hai jab tumhara balance $100 ho jaye. Shuru mein traffic build karne mein time lagta hai — patience rakhna zaroori hai.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">Kya Mobile se blog likh sakte hain?</div>
+      <div class="faq-a">Haan bilkul! Blogger ka mobile app available hai Android aur iOS pe. Aur mobile browser se bhi kaam ho jaata hai. Laptop nahi hai to bhi shuru kar sakte ho.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">AdSense ka paisa kaise milega Pakistan mein?</div>
+      <div class="faq-a">Google AdSense Pakistan mein Western Union ya cheque se payment karta tha — ab Wire Transfer bhi available hai. Payoneer se bhi receive kar sakte hain kuch cases mein. $100 threshold hone pe automatic payment hoti hai.</div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-box">
+    <h3>🚀 Aaj Se Shuru Karo — Bilkul Free!</h3>
+    <p>Blogger pe account banao — 5 minute mein ready. Pehla article aaj hi likho!</p>
+    <a href="https://www.blogger.com" target="_blank" class="cta-btn">Blogger Pe Blog Banao →</a>
+  </div>
+
+  <!-- MORE GUIDES -->
+  <div class="section">
+    <h2>📚 Aur Guides Bhi Padho</h2>
+    <div class="more-guides">
+      <a href="https://asadlatif-pk.github.io/kamai-pk/freelancing-guide.html" class="guide-card">
+        <div class="g-tag">💻 Freelancing</div>
+        <div class="g-title">Fiverr aur Upwork se dollar mein kamao</div>
+        <div class="g-sub">Pakistan ka No.1 earning method</div>
+      </a>
+      <a href="https://asadlatif-pk.github.io/kamai-pk/youtube-guide.html" class="guide-card">
+        <div class="g-tag">📺 YouTube</div>
+        <div class="g-title">Channel banao aur passive income kamao</div>
+        <div class="g-sub">Long term best method</div>
+      </a>
+      <a href="https://asadlatif-pk.github.io/kamai-pk/affiliate-guide.html" class="guide-card">
+        <div class="g-tag">🛒 Affiliate</div>
+        <div class="g-title">Products promote karo, commission lo</div>
+        <div class="g-sub">Bina product ke earning</div>
+      </a>
+      <a href="https://asadlatif-pk.github.io/kamai-pk/ai-tools-guide.html" class="guide-card">
+        <div class="g-tag">🤖 AI Tools</div>
+        <div class="g-title">ChatGPT se services banakar becho</div>
+        <div class="g-sub">2026 ka sabse naya tareeqa</div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <a href="https://asadlatif-pk.github.io/kamai-pk/index.html">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">Privacy Policy</a>
+  </div>
+  <div class="copy">© 2026 <a href="https://asadlatif-pk.github.io/kamai-pk/index.html">KamaiPK</a> — تمام حقوق محفوظ ہیں 🇵🇰 Made with ❤️ in Pakistan</div>
+  <a href="#" class="back-top">↑ Upar Jao</a>
+</footer>
+
+</body>
+</html>
